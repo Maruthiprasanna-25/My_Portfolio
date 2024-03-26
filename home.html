@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Portfolio</title>
+       <style>
+/* Apply a background color to the entire page */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+        /* Your existing styles */
+
+        /* Style the navbar */
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Style the navbar links */
+     nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Add hover effect to navbar links */
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+/* Style the header with a background color, text color, and padding */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the h1 in the header */
+header h1 {
+  font-size: 36px;
+}
+
+/* Add some padding and margin to sections for spacing */
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Style the h2 headers in sections */
+section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Style the paragraph text in sections */
+section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Style the project containers */
+.project {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the project image */
+.project img {
+  max-width: 70%;
+  height: auto;
+}
+
+/* Style the project title */
+.project h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Style the project description */
+.project p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* Style the certifications list */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+}
+
+/* Style the certification images */
+ul img {
+  max-width: 48%;
+  height: auto;
+  margin: 10px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Add hover effect to links */
+a:hover {
+  text-decoration: underline;
+}
+.contact-form {
+            max-width:600px;
+            margin: 0 auto;
+            margin-top: 40px; 
+            padding:10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Style the form inputs and textarea */
+        .contact-form label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Style the form button */
+        .contact-form button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+            /* Style the skills container */
+        .skills-container {
+            max-width: 800px;
+            margin-bottom: 40px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        /* Style the skill categories */
+        .skill-category {
+            margin-bottom: 15px;
+        }
+
+        .skill-category h3 {
+          color: #007bff;
+        }
+
+        /* Style the individual skills */
+        .skill {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .skill-name {
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+
+        .skill-level {
+            width: 100px;
+            text-align: right;
+        }
+         /* Add a color-coded scale for skill levels */
+         .skill-level-bar {
+            height: 20px;
+            background-color: #eee;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .skill-level-fill {
+            height: 100%;
+            width: 0;
+            background-color: #007bff;
+            border-radius: 4px;
+        }
+</style>
+</head>*/
+<body>
+    <header>
+        <h1>EEMANI MARUTHI PRASANNA</h1>
+    </header>
+    <nav>
+      <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#skills">my skills</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+      </ul>
+  </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm EEMANI MARUTHI PRASANNA, and I'm currently in my second year of engineering studies. My journey as an engineering student is a thrilling odyssey filled with endless possibilities and a deep-rooted passion for problem-solving.
+            
+            My fascination with engineering sparked my decision to enroll at KAKINADA INSTITUTE OF ENGENEERING AND TECHNOLOGY FOR WOMENS, where I'm majoring in Artificial Intillgence. I've embarked on this academic adventure with an insatiable curiosity, covering a range of subjects, from [Mention Some Notable Courses or Projects]. 
+            
+            As I progress through my studies, I'm nurturing ambitious dreams for my future in the engineering realm. I see myself on top position in AMAZON.
+            
+            When I'm not immersed in textbooks and labs, you can find me as an artist like drawing small small pictures and i would love to listen music. These interests breathe life into my academic pursuits, offering fresh perspectives and inspiration for my engineering projects.
+            
+            
+            I'm not only eager to learn and grow but also to connect with fellow students, mentors, and individuals who share a passion for engineering. If you're interested in discussing engineering, collaborating on a project, or just want to connect, please don't hesitate to reach out to me at maruthiprasannaeemani@gmail.com. Let's be part of the next generation of engineers who shape the future.
+            
+            Thank you for taking a moment to learn about my journey as a second-year engineering student. I look forward to connecting with you and sharing the incredible adventure of engineering.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <h3>MY PROJECT</h3>
+        <div class="project">
+            <p>Our simple interface makes it easy to recognize your handwriting effortlessly.
+
+            
+            
+            
+                
+          
+            
+                Our advanced algorithms ensure fast and accurate handwriting recognition
+            
+           
+          Convert your handwritten notes into digital text with just a few clicks.
+          <img src="pro oupt.jpg" alt="My Project"></p>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <img src="C:\Users\MARUTHI\Desktop\portfolio\Basic py certificate.jpg" alt="intro to python certificate">
+        </ul>
+        <ul>
+            <img src="Basic py certificate.jpg" alt="BASICS OF PYTHON CERTIFICATE">
+        </ul>
+        <ul>
+            <img src="htcs certificate.jpg" alt="HTML& CSS CERTIFICATE">
+        </ul>
+  
+    </section>
+    <section id="skills" class="skills-container">
+        <h2>Skills</h2>
+        <div class="skill-category">
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-level">95%</div>
+                <div class="skill-level-bar">
+                    <div class="skill-level-fill" style="width: 80%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-category">
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-level">60%</div>
+                <div class="skill-level-bar">
+                    <div class="skill-level-fill" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">PYTHON</div>
+                <div class="skill-level">80%</div>
+                <div class="skill-level-bar">
+                    <div class="skill-level-fill" style="width: 60%;"></div>
+                </div>
+            </div>
+            
+        </div>
+        </section>
+    <section id="contact" class="contact-form">
+      <h2>Contact Me</h2>
+      <form action="process_contact_form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send Message</button>
+      </form>
+  </section>
+
+  <footer>
+
+    <footer>
+        <p>Contact
+            <br>Mail :maruthiprasannaeemani@gmail.com</br>
+            <br>Github :https://github.com/Maruthiprasanna-25</br>
+            <br>Linkdin :https://www.linkedin.com/in/maruthi-prasanna-eemani-75921a289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app<br>
+        </p>
+    </footer>
+</body>
+</html>
